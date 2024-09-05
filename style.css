@@ -1,0 +1,159 @@
+header,footer{
+    background-color: goldenrod;
+    color:white;
+    text-align: center;
+    text-transform:initial ;
+    text-decoration:solid;
+    padding: 5px;
+    
+
+}
+section{
+    padding-bottom: 10px; 
+}
+
+.ss {
+    border-bottom: 2px solid black;
+    padding: 1px;
+
+}
+#pt{
+    font-size: large;
+    text-align:justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#cita{
+    background-color: rgb(218, 213, 213);
+    padding: 1px;
+    border-left: 5px solid grey;
+    text-decoration: wavy;
+    font-style: italic;
+    
+}
+
+#caja1{
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 2px;
+    border: 2px black solid;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(182, 180, 180);
+    text-align: justify;
+    font-size:small;
+    
+    
+
+}
+#caja2{
+    padding: 10px;
+    background-color: rgb(240, 226, 170);
+    margin: 2px;
+    border: 3px black solid;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(182, 180, 180);
+    text-align: justify;
+    font-size:small;
+    
+    
+}
+.box{
+    position: relative;
+    top: 10px;
+    height: 50px;
+    background-color: rgb(220, 197, 241);
+    padding: 1px;
+    text-align: justify;
+    margin-bottom: 50px;
+  
+    
+}
+.box2{
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    width: 560px;
+    background-color: rgb(13, 172, 172);
+    border-radius: 4px;
+    
+}
+#textobox{
+    margin: 18px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px,1fr));
+
+}
+.grid-item{
+    width: 170px;
+    height: 30px;
+    background-color: rgb(158, 123, 241);
+    border-radius: 4px;
+    margin-left: 3px;
+    text-align: center;
+    border: 2px solid black
+    
+}
+.textogrid{
+    color: white;
+    margin: 9px;
+   
+}
+.mover{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: mover 5s infinite;
+    border: 2px solid black;
+
+}
+.animacion{
+    
+    background-color: rgb(95, 230, 82);
+    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border: 2px solid white ;
+    transition: 1s ease;
+    
+
+}
+.animacion:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgb(95, 230, 82) ;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(90vw);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    body{
+        background-color: rgb(233, 216, 165);
+    }
+    section{
+        background-color: white;
+        border-radius: 6px;
+        
+        
+
+    }
+    
+}
